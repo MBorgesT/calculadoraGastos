@@ -48,41 +48,12 @@
 
         </LinearLayout>
 
-        <ScrollView
+
+        <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/listView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                android:id="@+id/tabelaView"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:stretchColumns="*">
-
-                <TableRow>
-
-                    <TextView
-                        android:background="@drawable/table_row_primario"
-                        android:text="Produto"
-                        android:gravity="center"
-                        android:padding="3dip" />
-
-                    <TextView
-                        android:background="@drawable/table_row_primario"
-                        android:text="Categoria"
-                        android:gravity="center"
-                        android:padding="3dip" />
-
-                    <TextView
-                        android:background="@drawable/table_row_primario"
-                        android:text="Valor"
-                        android:gravity="center"
-                        android:padding="3dip" />
-
-                </TableRow>
-
-            </TableLayout>
-
-        </ScrollView>
+            android:layout_height="wrap_content">
+        </ListView>
 
     </LinearLayout>
 
